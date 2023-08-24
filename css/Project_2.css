@@ -1,0 +1,72 @@
+ body {
+    text-align: center;
+  }
+  
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .Box {
+   text-align: left;
+  }
+  
+  table {
+    margin: auto;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    border: 1px solid black;
+    padding: 10px;
+  }
+
+  .header {
+    background-image: url("https://images.pexels.com/photos/7267598/pexels-photo-7267598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    min-height: 550px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .loading-spinner {
+    top: 30%;
+    left: 50%;
+    z-index: 9;
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: fixed;
+    margin-left: -50px;
+    background: rgba(180, 187, 195, 0.9);
+  }
+
+  .modal-body-LiveModal{
+    height: 450px;
+  }
+
+  .loading-spinner {
+    top: 30%;
+    left: 50%;
+    z-index: 9;
+    width: 100px;
+    height: 100px;
+    display: block;
+    position: fixed;
+    margin-left: -50px;
+    background: rgba(180, 187, 195, 0.9);
+  }
+
+  .modal-footer{
+display: flex;
+  }
+
+  div>img {
+height: 100px;
+width:  80px;
+border-radius:50%;
+border: dotted 2px gray;
+box-shadow: 5px  0 20px gray;
+}
